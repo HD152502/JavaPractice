@@ -44,7 +44,7 @@ public class Loop {
 				attack = attack - 10;
 				System.out.println("공격력이 감소되었습니다. 현재 공격력 : " + attack);
 			} else if (choice == 3) {
-				int ran = new Random().nextInt(3) + 1;
+				int ran = new Random().nextInt(4) + 1;
 				System.out.println(chr[ran] + "(으)로 설정되었습니다.");
 			} else if (choice == 9) {
 				System.out.println("이제 공부하세요!");
