@@ -24,6 +24,7 @@ public class CarTest {
 		// TODO Auto-generated method stub
 		// new car object create
 		// name car
+		System.out.println("<< 자동차 목록 >>");
 		Car car = new Car();
 		car.setCompany("현대자동차");
 		car.setModel("제네시스");
