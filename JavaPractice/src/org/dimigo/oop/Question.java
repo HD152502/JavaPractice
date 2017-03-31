@@ -28,7 +28,7 @@ public class Question {
 		Scanner scanner = new Scanner(System.in);
 		StringBuilder sb = new StringBuilder();
 		for (int i = 0; i < 3; i++) {
-			System.out.println((i+1)+". "+question[i]);
+			System.out.println((i+1)+"."+question[i]);
 			String reply = scanner.nextLine();
 			System.out.println(answer[i].equals(reply) ? "정답입니다!" : "틀렸습니다!");
 			sb.append(question[i] + " ").append(answer[i]).append("입니다.\n");
