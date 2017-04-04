@@ -19,9 +19,7 @@ import java.util.Scanner;
  */
 public class Question {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		String question[] = { "가장 좋아하는 가수는?", "가장 좋아하는 배우는?", "가장 좋아하는 과목은?" };
 		String answer[] = { "빅뱅", "원빈", "응용 프로그래밍" };
