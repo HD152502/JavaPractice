@@ -23,7 +23,7 @@ public class SmartPhoneTest {
 	public static void main(String[] args) {
 		
 		SmartPhone[] smartphones = {
-				new IPhone("iPohne 7","애플",900000),
+				new IPhone("iPhone 7","애플",900000),
 				new Galaxy("갤럭시 S8","삼성",800000)
 		};
 		for(SmartPhone smartphone:smartphones){
