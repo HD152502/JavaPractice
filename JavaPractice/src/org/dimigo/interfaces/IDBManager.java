@@ -27,7 +27,7 @@ public interface IDBManager {
 
 	public void delete();
 
-	static IDBManager getDBObject(String database) {
+	public static IDBManager getDBObject(String database) {
 		if (database == null) return null;
 		else if (ORACLE_DATABASE.equals(database)) {
 			IDBManager db = new OracleDB();
