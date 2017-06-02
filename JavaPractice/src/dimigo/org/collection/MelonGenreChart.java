@@ -20,7 +20,7 @@ import java.util.List;
  * @author : 구윤태
  * @vresion : 1.0
  */
-public class MusicGenreChart {
+public class MelonGenreChart {
 
 	/**
 	 * @param args
