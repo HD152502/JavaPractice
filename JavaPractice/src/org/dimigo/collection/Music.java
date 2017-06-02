@@ -1,7 +1,7 @@
 /**
  * 
  */
-package dimigo.org.collection;
+package org.dimigo.collection;
 
 /**
  * <pre>
