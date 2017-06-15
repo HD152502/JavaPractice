@@ -29,7 +29,6 @@ public class ArakoMenu {
 				Writer writer = new BufferedWriter(new FileWriter("files/menu.txt"));
 				BufferedReader reader = new BufferedReader(new FileReader("files/menu.txt"));) {
 			
-
 			String str;
 			while ((str = br.readLine()) != null) {
 				writer.write(str+"\n");
