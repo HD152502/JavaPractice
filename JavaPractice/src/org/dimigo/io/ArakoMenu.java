@@ -19,7 +19,7 @@ import java.io.Writer;
  * 2. 작성일 : 2017. 6. 14.
  * </pre>
  *
- * @author : 구윤태
+ * @author : 
  * @vresion : 1.0
  */
 public class ArakoMenu {
@@ -28,6 +28,7 @@ public class ArakoMenu {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 				Writer writer = new BufferedWriter(new FileWriter("files/menu.txt"));
 				BufferedReader reader = new BufferedReader(new FileReader("files/menu.txt"));) {
+			
 
 			String str;
 			while ((str = br.readLine()) != null) {
